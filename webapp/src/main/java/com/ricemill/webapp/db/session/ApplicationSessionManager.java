@@ -9,6 +9,7 @@ import java.sql.SQLException;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.cfg.AnnotationConfiguration;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 import org.hibernate.service.ServiceRegistryBuilder;
@@ -23,17 +24,16 @@ public class ApplicationSessionManager
 	
 	
 	private static final SessionFactory sessionFactory = buildSessionFactory();
-	private static ServiceRegistry serviceRegistry;
-	private static Configuration sessionConfiguration;
 
 	private static SessionFactory buildSessionFactory()
 	{
 		try {
-			sessionConfiguration = new Configuration()
-				.addAnnotatedClass(LoginInfo.class)
-				.configure();
-			serviceRegistry = new ServiceRegistryBuilder().applySettings(sessionConfiguration.getProperties()).buildServiceRegistry();  
-			return sessionConfiguration.buildSessionFactory(serviceRegistry);
+			
+			System.out.println("inside staic session factor");
+			
+			return new AnnotationConfiguration().
+					 configure().addAnnotatedClass(LoginInfo.class).buildSessionFactory();
+			
 		} catch(Throwable exp) {
 			logger.error(exp.toString(), exp);
 		}
