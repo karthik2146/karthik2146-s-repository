@@ -11,4 +11,6 @@
 
 	<bean id="sample" class="com.ricemill.webapp.action.Sample" scope="singleton"/>
 	
+	<bean id="applicationSessionManager" class="com.ricemill.webapp.db.session.ApplicationSessionManager" destroy-method="shutdown" />
+	
 </beans>

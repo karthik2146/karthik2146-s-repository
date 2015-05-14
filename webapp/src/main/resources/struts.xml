@@ -6,7 +6,7 @@
 <constant name="struts.devMode" value="true" />
    <package name="helloworld" extends="struts-default">
      
-      <action name="hello" 
+      <action name="home" 
             class="com.ricemill.webapp.action.WelcomeAction" 
             method="execute">
             <result name="success">/HomePage.jsp</result>
