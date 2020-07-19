@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+   <bean id="outerBean" class="com.ricemill.webapp.action.WelcomeAction" scope="request">
+      <property name="sample" ref="sample"/>
+   </bean>
+
+	<bean id="sample" class="com.ricemill.webapp.action.Sample" scope="singleton"/>
+	
+	<bean id="applicationSessionManager" class="com.ricemill.webapp.db.session.ApplicationSessionManager" destroy-method="shutdown" />
+	
+</beans>

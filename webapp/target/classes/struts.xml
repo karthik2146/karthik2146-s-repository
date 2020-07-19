@@ -1,0 +1,21 @@
+
+<!DOCTYPE struts PUBLIC
+   "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+   "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+<constant name="struts.devMode" value="true" />
+   <package name="helloworld" extends="struts-default">
+     
+      <action name="home" 
+            class="com.ricemill.webapp.action.WelcomeAction" 
+            method="execute">
+            <result name="success">/HomePage.jsp</result>
+      </action>
+   </package>
+   
+   <constant name="struts.custom.i18n.resources" value="uiresources.ui-messages.properties"/>
+
+	<constant name="struts.freemarker.templatesCache" value="true" />
+	 
+	 
+</struts>
