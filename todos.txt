@@ -1,0 +1,16 @@
+TODO in my spring project
+
+spring mvc
+
+spring security
+
+spring zool proxy integration
+
+spring pagination with angular frontend
+
+
+
+
+
+
+

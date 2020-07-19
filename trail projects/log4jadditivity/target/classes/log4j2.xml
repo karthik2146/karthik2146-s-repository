@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+
+	<Appenders>
+		<Console name="Console">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+		</Console>
+
+	</Appenders>
+
+  <Loggers>
+		<!-- Foo package -->
+		<logger name="com.javacodegeeks.examples.log4jadditivity.foo" level="INFO" additivity="false">
+			<AppenderRef ref="Console"/>
+		</logger>
+
+		<!-- Bar package -->
+		<logger name="com.javacodegeeks.examples.log4jadditivity.bar" level="WARN" additivity="false">
+			<AppenderRef ref="Console"/>
+		</logger>
+
+    <Root level="INFO">
+      <AppenderRef ref="Console"/>
+    </Root>
+  </Loggers>
+
+</Configuration>
