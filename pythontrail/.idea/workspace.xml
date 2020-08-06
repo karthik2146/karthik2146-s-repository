@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bd28b00c-0d08-4507-b52a-9f1d31a9e478" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YhDGMxAJZxtCNXryYXgURjbpVz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="pythontrail" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="pythontrail" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.listdictionary">
+    <configuration name="defaultarguments" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythontrail" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basics" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basics/defaultarguments.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="listdictionary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythontrail" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basics" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basics/listdictionary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pauseJobs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythontrail" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pauseJobs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pauseJobs/pauseJobs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="postMessageToCDM" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythontrail" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/extractUtility" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extractUtility/postMessageToCDM.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="restAPI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythontrail" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basics" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basics/restAPI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.listdictionary" />
+        <item itemvalue="Python.pauseJobs" />
+        <item itemvalue="Python.postMessageToCDM" />
+        <item itemvalue="Python.restAPI" />
+        <item itemvalue="Python.defaultarguments" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd28b00c-0d08-4507-b52a-9f1d31a9e478" name="Default Changelist" comment="" />
+      <created>1583385835509</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583385835509</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="442" y="64" key="#xdebugger.evaluate" timestamp="1593402263030">
+      <screen x="93" y="0" width="1187" height="720" />
+    </state>
+    <state x="442" y="64" key="#xdebugger.evaluate/93.0.1187.720@93.0.1187.720" timestamp="1593402263030" />
+    <state width="1185" height="352" key="DebuggerActiveHint" timestamp="1593402797557">
+      <screen x="93" y="0" width="1187" height="720" />
+    </state>
+    <state width="1345" height="440" key="DebuggerActiveHint/-1858.-179.1218.720/93.0.1347.900@93.0.1347.900" timestamp="1590679200498" />
+    <state width="1185" height="352" key="DebuggerActiveHint/93.0.1187.720@93.0.1187.720" timestamp="1593402797557" />
+    <state width="1326" height="277" key="GridCell.Tab.0.bottom" timestamp="1595235745526">
+      <screen x="93" y="0" width="1347" height="900" />
+    </state>
+    <state width="1259" height="344" key="GridCell.Tab.0.bottom/-1858.-179.1218.720/93.0.1347.900@-1858.-179.1218.720" timestamp="1590663713213" />
+    <state width="1326" height="277" key="GridCell.Tab.0.bottom/-1858.-179.1218.720/93.0.1347.900@93.0.1347.900" timestamp="1595235745526" />
+    <state width="1165" height="324" key="GridCell.Tab.0.bottom/93.0.1187.720@93.0.1187.720" timestamp="1593402867102" />
+    <state width="1326" height="277" key="GridCell.Tab.0.center" timestamp="1595235745525">
+      <screen x="93" y="0" width="1347" height="900" />
+    </state>
+    <state width="1259" height="344" key="GridCell.Tab.0.center/-1858.-179.1218.720/93.0.1347.900@-1858.-179.1218.720" timestamp="1590663713212" />
+    <state width="1326" height="277" key="GridCell.Tab.0.center/-1858.-179.1218.720/93.0.1347.900@93.0.1347.900" timestamp="1595235745525" />
+    <state width="1165" height="324" key="GridCell.Tab.0.center/93.0.1187.720@93.0.1187.720" timestamp="1593402867102" />
+    <state width="1326" height="277" key="GridCell.Tab.0.left" timestamp="1595235745525">
+      <screen x="93" y="0" width="1347" height="900" />
+    </state>
+    <state width="1259" height="344" key="GridCell.Tab.0.left/-1858.-179.1218.720/93.0.1347.900@-1858.-179.1218.720" timestamp="1590663713212" />
+    <state width="1326" height="277" key="GridCell.Tab.0.left/-1858.-179.1218.720/93.0.1347.900@93.0.1347.900" timestamp="1595235745525" />
+    <state width="1165" height="324" key="GridCell.Tab.0.left/93.0.1187.720@93.0.1187.720" timestamp="1593402867102" />
+    <state width="1326" height="277" key="GridCell.Tab.0.right" timestamp="1595235745525">
+      <screen x="93" y="0" width="1347" height="900" />
+    </state>
+    <state width="1259" height="344" key="GridCell.Tab.0.right/-1858.-179.1218.720/93.0.1347.900@-1858.-179.1218.720" timestamp="1590663713212" />
+    <state width="1326" height="277" key="GridCell.Tab.0.right/-1858.-179.1218.720/93.0.1347.900@93.0.1347.900" timestamp="1595235745525" />
+    <state width="1165" height="324" key="GridCell.Tab.0.right/93.0.1187.720@93.0.1187.720" timestamp="1593402867102" />
+    <state width="1165" height="324" key="GridCell.Tab.1.bottom" timestamp="1593587488995">
+      <screen x="93" y="0" width="1347" height="900" />
+    </state>
+    <state width="1165" height="324" key="GridCell.Tab.1.bottom/-1858.-179.1218.720/93.0.1347.900@93.0.1347.900" timestamp="1593587488995" />
+    <state width="1165" height="324" key="GridCell.Tab.1.bottom/93.0.1187.720@93.0.1187.720" timestamp="1593402867102" />
+    <state width="1165" height="324" key="GridCell.Tab.1.center" timestamp="1593587488995">
+      <screen x="93" y="0" width="1347" height="900" />
+    </state>
+    <state width="1165" height="324" key="GridCell.Tab.1.center/-1858.-179.1218.720/93.0.1347.900@93.0.1347.900" timestamp="1593587488995" />
+    <state width="1165" height="324" key="GridCell.Tab.1.center/93.0.1187.720@93.0.1187.720" timestamp="1593402867102" />
+    <state width="1165" height="324" key="GridCell.Tab.1.left" timestamp="1593587488995">
+      <screen x="93" y="0" width="1347" height="900" />
+    </state>
+    <state width="1165" height="324" key="GridCell.Tab.1.left/-1858.-179.1218.720/93.0.1347.900@93.0.1347.900" timestamp="1593587488995" />
+    <state width="1165" height="324" key="GridCell.Tab.1.left/93.0.1187.720@93.0.1187.720" timestamp="1593402867102" />
+    <state width="1165" height="324" key="GridCell.Tab.1.right" timestamp="1593587488995">
+      <screen x="93" y="0" width="1347" height="900" />
+    </state>
+    <state width="1165" height="324" key="GridCell.Tab.1.right/-1858.-179.1218.720/93.0.1347.900@93.0.1347.900" timestamp="1593587488995" />
+    <state width="1165" height="324" key="GridCell.Tab.1.right/93.0.1187.720@93.0.1187.720" timestamp="1593402867102" />
+    <state x="398" y="152" key="SettingsEditor" timestamp="1590678340463">
+      <screen x="93" y="0" width="1347" height="900" />
+    </state>
+    <state x="398" y="152" key="SettingsEditor/-1858.-179.1218.720/93.0.1347.900@93.0.1347.900" timestamp="1590678340463" />
+    <state width="600" height="367" key="XDebugger.FullValuePopup" timestamp="1593402791683">
+      <screen x="93" y="0" width="1187" height="720" />
+    </state>
+    <state width="600" height="367" key="XDebugger.FullValuePopup/93.0.1187.720@93.0.1187.720" timestamp="1593402791683" />
+    <state x="397" y="231" key="com.intellij.ide.util.TipDialog" timestamp="1593770684487">
+      <screen x="93" y="0" width="1347" height="900" />
+    </state>
+    <state x="-1583" y="6" key="com.intellij.ide.util.TipDialog/-1858.-179.1218.720/93.0.1347.900@-1858.-179.1218.720" timestamp="1590663111423" />
+    <state x="397" y="231" key="com.intellij.ide.util.TipDialog/-1858.-179.1218.720/93.0.1347.900@93.0.1347.900" timestamp="1593770684487" />
+    <state x="-1452" y="2" width="628" height="536" key="find.popup" timestamp="1590487449713">
+      <screen x="-1858" y="-179" width="1218" height="720" />
+    </state>
+    <state x="-1452" y="2" width="628" height="536" key="find.popup/-1858.-179.1218.720/93.0.1347.900@-1858.-179.1218.720" timestamp="1590487449712" />
+    <state x="518" y="196" width="672" height="678" key="search.everywhere.popup" timestamp="1593685942630">
+      <screen x="93" y="0" width="1347" height="900" />
+    </state>
+    <state x="518" y="196" width="672" height="678" key="search.everywhere.popup/-1858.-179.1218.720/93.0.1347.900@93.0.1347.900" timestamp="1593685942630" />
+    <state x="468" y="157" width="593" height="543" key="search.everywhere.popup/93.0.1187.720@93.0.1187.720" timestamp="1593397722777" />
+  </component>
+</project>
