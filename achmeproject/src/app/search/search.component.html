@@ -6,7 +6,7 @@
                 <input id='searchText' placeholder="search Foo" name="searchForm" required class="form-control" type="text" [(ngModel)]="searchValue" #name="ngModel"/>
                 <button class="fancy-button search" [disabled]="!searchForm.form.valid">search</button>
                 <div [hidden]="searchForm.valid || searchForm.pristine" class="alert">
-                    Name is required
+                    SearchText is Required
                 </div>
             </div>
         </form>
