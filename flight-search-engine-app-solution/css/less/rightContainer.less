@@ -1,0 +1,90 @@
+.right-container {
+    padding: 40px 0 0 20px;
+}
+
+.flight-info {
+    &-wrapper {
+        padding: 20px;
+        border: 1px solid #9a9a9a;
+        border-radius: 2px;
+        -moz-box-shadow: 3px 3px 5px rgba(68, 68, 68, 0.6);
+        -webkit-box-shadow: 3px 3px 5px rgba(68, 68, 68, 0.6);
+        box-shadow: 3px 3px 5px rgba(68, 68, 68, 0.6);
+        &:hover {
+            background: #ececec;
+            box-shadow: none;
+            transition: all 0.5s;
+        }
+    }
+    &-container {
+        display: flex;
+        &>div {
+            padding: 0 25px;
+        }
+        & div:first-child,
+            {
+            padding-left: 0;
+        }
+        & div:last-child {
+            padding-right: 0;
+        }
+    }
+}
+
+div.from-info-wrapper {
+    padding-left: 0;
+    &>div {
+        margin: 10px 0;
+    }
+}
+
+.return-info-wrapper>div {
+    margin: 10px 0;
+}
+
+div.booking-button-wrapper {
+    align-self: center;
+    margin-bottom: 26px;
+    padding-right: 0;
+    padding-left: 50px;
+}
+
+.static-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #9a9a9a;
+    padding-bottom: 10px;
+}
+
+.left-title {
+    align-self: center;
+    padding-left: 20px;
+    font-size: 1.1em;
+    &-symbol {
+        padding: 0 10px;
+    }
+}
+
+.right-title {
+    font-size: 0.9em;
+    &>div {
+        padding: 5px 0;
+    }
+}
+
+.search-list-container li {
+    padding: 10px 0;
+    &:first-child {
+        padding-top: 0;
+    }
+}
+
+.flight-cost {
+    font-size: 1.15em;
+    margin-bottom: 10px;
+}
+
+.sort-selectBox {
+    width: auto;
+    padding: 5px;
+}

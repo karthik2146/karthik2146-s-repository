@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style/styles.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lodash@4.17.4/lodash.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="script/app.js"></script>
+
+    <script type="text/template" id="result-template">
+
+        <div class="dhead">
+                <div class="title"> MAA to DEL </div>
+                <div class="schedule">
+                    <div> Depart 6th February 2019 </div>
+                    <div> Return 7th February 2019 </div>
+                </div>
+            </div>
+            <div class="dcont">
+                <div class="dsort"> SortBy: <select name=" " id="">
+                        <option value=""> please Select</option>
+                    </select> </div>
+                <div class="rcont">
+            
+                    <% _.forEach(flights,(f)=> {%>
+                        
+                        <div class="ritem">
+                            <div class="cost"> <%-f.cost %> </div>
+                            <div class="details">
+                                <div class="itnry">
+                                    <div><%-f.id%></div>
+                                    <div class="route"> <%-f.src%> TO <%-f.dest%></div>
+                                    <div> Depart: <%-f.dept%></div>
+                                    <div>Arrive: <%-f.arr%></div>
+                                </div>
+            
+                                <div class="itnry">
+                                    <div><%-f.id%></div>
+                                    <div class="route"> <%-f.src%> TO <%-f.dest%></div>
+                                    <div> Depart: <%-f.dept%></div>
+                                    <div>Arrive: <%-f.arr%></div>
+                                </div>
+                                <button> Book THIS FLIGHT </button>
+                            </div>
+            
+                        </div>
+            
+            
+                        <%}); %>
+            
+                </div>
+            </div>
+
+
+        </script>
+</head>
+
+<body>
+    <header class="fg-head">
+        <div class="fg-logo">
+            <div class="icon"> </div>
+            <div class="txt">
+                <div class=""> FLIGHT</div>
+                <div class=""> SEARCH ENGINE</div>
+            </div>
+        </div>
+
+    </header>
+    <div class="fg-body">
+        <div class="fg-search">
+            <div class="mode">
+                <button> One way</button>
+                <button>Return </button>
+            </div>
+            <div class="inp">
+                <input type="text" id="from"/>
+                <input type="text" id="to"/>
+                <input type="text" id="date" placeholder="dd/mm/yy"/>
+                <input type="text" id="capacity"/>
+                <button id="search" onclick="app.search()"> SEARCH </button>
+            </div>
+        </div>
+        <div class="fg-disp" id="list">
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>

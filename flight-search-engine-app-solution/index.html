@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search Your Flight Information</title>
+
+    <!-- include Third Party css files here... -->
+    <link rel="stylesheet" href="./lib/datepicker.min.css" />
+
+    <!-- include custom css here... -->
+    <link rel="stylesheet" href="./css/flightSearch.css" />
+</head>
+
+<body>
+    <!-- Header/Navigation Section-->
+    <header>
+        <div class="logo-wrapper">
+            <img class="logo-wrapper-img" src="./img/flight-icon.svg">
+            <div>
+                <span class="logo-wrapper-text">FLIGHT</span>
+                <span class="logo-wrapper-subText">SEARCH ENGINE</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Search container area-->
+    <section class="search-container">
+        <!-- Left Container start-->
+        <div class="left-container">
+            <div class="fixed-container">
+                <div class="tab">
+                    <button class="tab-links" data-id="0">One way</button>
+                    <button class="tab-links" data-id="1">Return</button>
+                </div>
+
+                <!-- Tab content -->
+                <div class="tab-content active">
+                    <form action="#" id="oneWayForm" autocomplete="off">
+                        <div class="tab-container">
+                            <input type="text" placeholder="Enter Origin" name="origin" required value="MAA">
+                            <input type="text" placeholder="Enter Destination" name="destination" required value="DEL">
+                            <input type="text" placeholder="Departure Date" name="depdate" class='datepicker-here'
+                                data-language='en' data-auto-close="true" required>
+                            <input type="number" placeholder="Passengers" name="passengers" min="1" max="10" step="1"
+                                value="4">
+                            <button class="org-button btn-small " type="submit">SEARCH</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="tab-content">
+                    <form action="#" id="returnForm" autocomplete="off">
+                        <div class="tab-container">
+                            <input type="text" placeholder="Return Date" name="returndate" class='datepicker-here'
+                                data-language='en' data-auto-close="true">
+                            <button class="org-button btn-small " type="submit">SEARCH</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Left Container End-->
+
+        <!-- Right Container start-->
+        <div class="right-container">
+            <div class="search-list-container">
+                <div class="static-header" id="searchInfo"></div>
+                <div>
+                    <label>SortBy:</label>
+                    <select class="sort-selectBox">
+                        <option value="">Please Select</option>
+                        <option value="high">Price:High</option>
+                        <option value="low">Price:Low</option>
+                    </select>
+                </div>
+                <ul id="searchList"></ul>
+            </div>
+        </div>
+        <!-- Right Container end-->
+    </section>
+
+    <!-- searchInofrmation Template Enging-->
+    <script type="text/template" id="searchInfoDisplay">
+        <div class="left-title">
+            <span class="font-bold"><%= items.origin %></span>
+            <span class="font-bold flight-icon left-title-symbol"> <img class="flight-icon-img" src="./img/flight-icon-fill.svg"> </span>
+            <span class="font-bold"><%= items.destination %></span>
+        </div>
+        <div class="right-title">
+                <div>Depart :<span><%= items.depdate %></span></div>
+                <%if (items.returndate) {%>
+                    <div>Return :<span><%= items.returndate %></span></div>
+                <%}%>
+        </div>
+    </script>
+    
+    <!-- searchInofrmation flight items Template Enging-->
+    <script type="text/template" id="searchFlight">
+        <% _.each(items,function(item,key,arr) { %>            
+            <li>
+                <div class="flight-info-wrapper">
+                    <h2 class="flight-cost font-bold">Rs <%= item.price %></h2>
+                    <div class="flight-info-container">
+                        <div class="from-info-wrapper">
+                            <div><%= item.fid %></div>
+                            <div class="font-bold"><%= item.origin %> <span class="flight-icon"><img class="flight-icon-img" src="./img/flight-icon-fill.svg"></span> <%= item.destination %></div>
+                            <div>Depart :<span><%= item.fDepartureTime %></span></div>
+                            <div>Arrive :<span><%= item.fArrivalTime %></span></div>
+                        </div>
+                        <% if(item.rfid) { %>
+                        <div class="return-info-wrapper">
+                            <div><%= item.rfid %></div>
+                            <div class="font-bold"><%= item.destination %> <span class="flight-icon"><img class="flight-icon-img" src="./img/flight-icon-fill.svg"></span> <%= item.origin %></div>
+                            <div>Depart :<span><%= item.rDepartureTime %></span></div>
+                            <div>Arrive :<span><%= item.rArrivalTime %></span></div>
+                        </div>
+                        <% } %>
+                        <div class="booking-button-wrapper">
+                            <button class="org-button" data-id=<%= item.fid %>>BOOK THIS FLIGHT</button>
+                        </div>
+                    </div>
+                </div>
+            </li>            
+        <% }); %>
+        <% if(items.length === 0) { %>
+            <li>
+                <div class="flight-info-wrapper">
+                    Result will display here for your search category...
+                </div>
+            </li>
+        <% } %>
+    </script>
+    <!-- include Third Party Supported Plugin files here... -->
+    <script src="./lib/jquery.min.js"></script>
+    <script src="./lib/moment.min.js"></script>
+    <script src="./lib/datepicker.min.js"></script>
+    <script src="./lib/datepicker.en.js"></script>
+    <script src="./lib/underscore-min.js"></script>
+
+    <!-- include custom js here... -->
+    <script src="./js/flightSearch.js"></script>
+    <script src="./js/flighSearchInstantiate.js"></script>
+</body>
+
+</html>

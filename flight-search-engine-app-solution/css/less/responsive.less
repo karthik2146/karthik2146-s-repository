@@ -1,0 +1,66 @@
+@mobile: ~"only screen and (min-width: 320px)";
+@tablet: ~"only screen and (min-width: 768px)";
+@desktop: ~"only screen and (min-width: 1025px)";
+@desktop-xl: ~"only screen and (min-width: 1129px)";
+@media @mobile {
+    .search-container {
+        display: block;
+    }
+    .left-container {
+        width: auto;
+        padding-bottom: 20px;
+        padding-left: 20px;
+    }
+    .flight-info-container {
+        display: block;
+    }
+    div.booking-button-wrapper {
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .right-container {
+        padding-right: 20px;
+    }
+    .org-button {
+        margin-left: 0;
+    }
+    .left-title {
+        padding-left: 0;
+    }
+    div.return-info-wrapper {
+        padding-left: 0;
+        border-top: 2px dotted #000000;
+    }
+}
+
+@media @desktop {
+    .search-container {
+        display: flex;
+    }
+    .left-container {
+        width: 23%;
+        padding: 40px 20px 0 50px;
+    }
+    .flight-info-container {
+        display: flex;
+    }
+    div.booking-button-wrapper {
+        margin-bottom: 26px;
+        padding-right: 0;
+        padding-left: 50px;
+    }
+    .org-button {
+        margin-left: 5px;
+    }
+    .left-title {
+        padding-left: 20px;
+    }
+    div.return-info-wrapper {
+        padding-left: 25px;
+        border-top-width: 0;
+    }
+}
+
+@media @tablet {}
+
+@media @desktop {}

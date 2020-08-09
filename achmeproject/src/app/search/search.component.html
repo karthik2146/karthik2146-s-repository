@@ -1,0 +1,15 @@
+<div class="search-cont">
+    <div class="search-box">
+        <label> Enter your search text here: </label>
+        <input id='searchText' type="text" [(ngModel)]="searchValue" />
+        <button class="fancy-button" (click)="search()">search</button>
+    </div>
+
+
+    <div class="search-content">
+        <div *ngFor="let resultItem of results">
+            <span> {{resultItem.app}} </span>
+            <span> {{resultItem.body}} </span>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    color: black;
+}
+
+input[type=text],
+input[type=number],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.btn-small {
+    max-width: 150px;
+}
+
+.org-button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 10px;
+    /* transition: all 0.5s; */
+    cursor: pointer;
+    margin: 5px;
+    min-width: 160px;
+    &:hover {
+        background-color: #FFFFFF;
+        color: #f4511e;
+        border: 1px solid #f4511e;
+        transition: all 0.5s;
+    }
+}
+
+span.flight-icon {
+    position: relative;
+    padding: 0 15px;
+}
+
+.flight-icon-img {
+    position: absolute;
+    left: 0;
+    height: 20px;
+    transform: rotate(25deg);
+}

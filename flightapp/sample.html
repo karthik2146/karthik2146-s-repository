@@ -1,0 +1,41 @@
+<div class="dhead">
+        <div class="title"> MAA to DEL </div>
+        <div class="schedule">
+            <div> Depart 6th February 2019 </div>
+            <div> Return 7th February 2019 </div>
+        </div>
+    </div>
+    <div class="dcont">
+        <div class="dsort"> SortBy: <select name=" " id="">
+                <option value=""> please Select</option>
+            </select> </div>
+        <div class="rcont">
+    
+            <% _.forEach(flights,(f)=> {%>
+                
+                <div class="ritem">
+                    <div class="cost"> <%-f.cost %> </div>
+                    <div class="details">
+                        <div class="itnry">
+                            <div><%-f.id%></div>
+                            <div class="route"> <%-f.src%> TO <%-f.dest%></div>
+                            <div> Depart: <%-f.dept%></div>
+                            <div>Arrive: <%-f.arr%></div>
+                        </div>
+    
+                        <div class="itnry">
+                            <div><%-f.id%></div>
+                            <div class="route"> <%-f.src%> TO <%-f.dest%></div>
+                            <div> Depart: <%-f.dept%></div>
+                            <div>Arrive: <%-f.arr%></div>
+                        </div>
+                        <button> Book THIS FLIGHT </button>
+                    </div>
+    
+                </div>
+    
+    
+                <%}); %>
+    
+        </div>
+    </div>
