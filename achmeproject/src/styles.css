@@ -2,7 +2,7 @@
 
 * {
   font-family: 'Roboto', Arial, sans-serif;
-  color: #616161;
+  color: #242439;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -10,6 +10,7 @@
 
 body {
   margin: 0;
+  background-color: #4B93E3;
 }
 
 
@@ -35,17 +36,6 @@ p {
   font-size: 14px;
 }
 
-/* Hyperlink */
-
-a {
-  cursor: pointer;
-  color: #1976d2;
-  text-decoration: none;
-}
-
-a:hover {
-  opacity: 0.8;
-}
 
 /* Input */
 

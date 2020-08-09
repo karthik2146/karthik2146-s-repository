@@ -8,3 +8,20 @@
     justify-content: center;
     align-items: baseline;
 }
+
+#searchText.ng-touched.ng-invalid{
+border-color: #b90000;
+}
+
+.search-result{
+    margin:30px;
+}
+
+.alert{
+    color : #b90000;
+}
+
+button.search{
+    margin-left: 5px;
+}
+
